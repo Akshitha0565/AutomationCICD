@@ -21,6 +21,7 @@ public class StandAloneTest
      //String productName = "ZARA COAT 3";
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
+        //to open this url on browser
         driver.get("https://rahulshettyacademy.com/client");
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
